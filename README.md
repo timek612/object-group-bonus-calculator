@@ -70,7 +70,8 @@ NOTE: You may abstract out this bonus calculation into a second function if you 
 - Then style the output, making it visually appealing.
 
 -------------
-TO DO: ??
+TO DO: MAKE A NEW ARRAY CONTAINING NEW OBJECTS WITH NEW VALUES
+
 
 - loop that iterates through array
 - takes object 
