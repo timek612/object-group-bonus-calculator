@@ -53,7 +53,7 @@ Write a declared function that takes in one **Employee** object (as an argument 
 * The `totalBonus` should be the employee's total bonus rounded to the nearest dollar.
 
 ### Individual Bonus calculation
-- Those who have a rating of a 2 or below should not receive a bonus.
+- Those who have a rating of a 2 or below should not receive a bonus. (ELSE)
 - Those who have a rating of a 3 should receive a base bonus of 4% of their base annual income.
 - Those who have a rating of a 4 should receive a base bonus of 6% of their base annual income.
 - Those who have a rating of a 5 should receive a base bonus of 10% of their base annual income.
@@ -68,3 +68,22 @@ NOTE: You may abstract out this bonus calculation into a second function if you 
 - Put the output on the DOM (visually on the page).
 - Make the app run only after the user clicks on a button on the page
 - Then style the output, making it visually appealing.
+
+-------------
+TO DO: ??
+
+- loop that iterates through array
+- takes object 
+- makes new object with new properties that get processed through new rules
+- console log the results of each iteration
+
+let newObject = {
+    name: employees[i].name
+    bonusPercentage:
+    totalCompensation:
+    totalBonus:
+  }
+
+
+  notes:
+  variable for rating percentage?
