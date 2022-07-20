@@ -77,17 +77,17 @@ function bonusCalculator (employees) {
   } 
     else {console.log(employees[i].name,'number is not 4 digits')}
 
-  if (employees[i].annualSalary >= '65000') { // number is string
+  if (employees[i].annualSalary >= '65000') { // correct way is to turn this string into a number
     console.log(employees[i].name,'Annual salary is over 65000');
     totalBonus -= .01;
   } 
     else {console.log(employees[i].name,'Salary is under 65000')}
 
-  if (totalBonus >= 0.13) {
+  if (totalBonus > 0.13) {
     console.log(employees[i].name,'bonus is set to 13%');
     totalBonus = 0.13 
   } 
-    else if (totalBonus > 0 && totalBonus < .12 ) {
+    else if (totalBonus > 0 && totalBonus <= .13 ) {
     console.log(employees[i].name,'bonus stays the same')
     }
     else {console.log(employees[i].name,'bonus is set to 0%')
@@ -121,6 +121,7 @@ function bonusCalculator (employees) {
     
   }
   console.log(newArray);
+  
 }
   bonusCalculator(employees);
   
