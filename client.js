@@ -54,17 +54,17 @@ function bonusCalculator (employees) {
  
     if (employees[i].reviewRating === 3) {
       console.log(employees[i].name, ' rating is 3');
-      let rating3 = .03; 
+      let rating3 = .04; 
       totalBonus += rating3;
     }
     else if (employees[i].reviewRating === 4) {
       console.log(employees[i].name,' rating is 4');
-      let rating4 = .04;
+      let rating4 = .06;
       totalBonus += rating4;
   }
     else if (employees[i].reviewRating >= 5) {
       console.log(employees[i].name,' rating is 5');
-      let rating5 = .05;
+      let rating5 = .10;
       totalBonus += rating5;
     }
     else {console.log(employees[i].name,' rating is 2 or below')}
@@ -124,5 +124,7 @@ function bonusCalculator (employees) {
   
 
   
+// TAKEAWAYS!!!!
+// DON'T BE AFRAID TO PUT AS MANY NOTES IN YOUR CODE
 
   
